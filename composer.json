@@ -1,0 +1,20 @@
+{
+    "name": "webidea24/magento2-module-page-builder-wysiwyg-html-editor",
+    "version": "1.0.0",
+    "description": "Magento 2 Module: Make the toggle-Button for HTML Editor available in PageBuilder elements",
+    "type": "magento2-module",
+    "require": {
+        "magento/module-page-builder": "*"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webidea24\\PageBuilderWysiwygHtmlEditor\\": ""
+        }
+    }
+}
